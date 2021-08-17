@@ -1,5 +1,6 @@
 import Menu from '../src/components/commons/Menu';
 import Footer from '../src/components/commons/Footer';
+import Cover from '../src/components/commons/Cover';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       justifyContent: 'space-between',
     }}>
       <Menu />
+      <Cover />
       <Footer />
     </div>
   );
